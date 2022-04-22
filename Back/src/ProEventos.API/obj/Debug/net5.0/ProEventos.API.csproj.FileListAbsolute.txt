@@ -11,7 +11,6 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Deb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csprojAssemblyReference.cache
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.AssemblyInfoInputs.cache
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.AssemblyInfo.cs
@@ -61,3 +60,4 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Deb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Application.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Persistence.pdb
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.AssemblyReference.cache

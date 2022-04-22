@@ -6,7 +6,6 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\bin\Debug\net5.0\ProEventos.Persistence.pdb
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csprojAssemblyReference.cache
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.AssemblyInfoInputs.cache
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.AssemblyInfo.cs
@@ -15,3 +14,4 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ref\ProEventos.Application.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.pdb
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.AssemblyReference.cache

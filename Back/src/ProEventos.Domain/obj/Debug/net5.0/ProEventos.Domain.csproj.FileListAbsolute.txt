@@ -9,4 +9,4 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\Debug\net5.0\ProEventos.Domain.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\Debug\net5.0\ref\ProEventos.Domain.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\Debug\net5.0\ProEventos.Domain.pdb
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\Debug\net5.0\ProEventos.Domain.csprojAssemblyReference.cache
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Domain\obj\Debug\net5.0\ProEventos.Domain.csproj.AssemblyReference.cache
