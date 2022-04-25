@@ -60,4 +60,8 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Deb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Application.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Persistence.pdb
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.AssemblyReference.cache
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csprojAssemblyReference.cache

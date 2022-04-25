@@ -15,4 +15,4 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence\obj\Debug\net5.0\ref\ProEventos.Persistence.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.pdb
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.genruntimeconfig.cache
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.csproj.AssemblyReference.cache
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Persistence\obj\Debug\net5.0\ProEventos.Persistence.csprojAssemblyReference.cache

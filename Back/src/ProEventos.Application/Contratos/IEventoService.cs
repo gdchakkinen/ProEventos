@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace ProEventos.Application.Contratos
 {
-    public interface IEventosService
+    public interface IEventoService
     {
         Task<Evento> AddEventos(Evento model);
         Task<Evento> UpdateEventos(int eventoId, Evento model);

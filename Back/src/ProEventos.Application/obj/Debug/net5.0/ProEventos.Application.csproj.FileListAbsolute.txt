@@ -14,4 +14,4 @@ C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ref\ProEventos.Application.dll
 C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.pdb
-C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csproj.AssemblyReference.cache
+C:\Users\gabriel.costa\ProjetosCursos\ProEventos\Back\src\ProEventos.Application\obj\Debug\net5.0\ProEventos.Application.csprojAssemblyReference.cache
