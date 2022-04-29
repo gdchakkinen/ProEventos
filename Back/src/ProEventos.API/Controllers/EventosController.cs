@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using ProEventos.Application.Contratos;
 using ProEventos.Domain;
 using Microsoft.AspNetCore.Http;
+using ProEventos.Application.Dtos;
+using System.Collections.Generic;
 
 namespace ProEventos.API.Controllers
 {
@@ -27,16 +29,18 @@ namespace ProEventos.API.Controllers
             {
                 var eventos = await _eventoService.GetAllEventosAsync(true);
                 if (eventos == null) return NotFound("Nenhum evento encontrado!");
+
                 return Ok(eventos);
+ 
             }
             catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError,
                                        $"Erro ao tentar recuperar eventos. Erro: {ex.Message}");
             }
-        } 
+        }
+        
         [HttpGet("{id}")]
-
         public async Task<IActionResult> GetById(int id)
         {
             try
@@ -54,7 +58,6 @@ namespace ProEventos.API.Controllers
         } 
         
         [HttpGet("{tema}/tema")]
-
         public async Task<IActionResult> GetByTema(string tema)
         {
             try
@@ -72,52 +75,52 @@ namespace ProEventos.API.Controllers
         }            
     
         [HttpPost]
-            public async Task<IActionResult> Post(Evento model)
+            public async Task<IActionResult> Post(EventoDto model)
             {
-            try
-            {
-                var evento = await _eventoService.AddEventos(model);
-                if (evento == null) return BadRequest("Erro ao tentar adc  evento.");
+                try
+                {
+                    var evento = await _eventoService.AddEventos(model);
+                    if (evento == null) return BadRequest("Erro ao tentar adc  evento.");
 
-                return Ok(evento);
-            }
-            catch (Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, 
-                                         $"Erro ao tentar adc eventos. Erro: {ex.Message}");
-            }
+                    return Ok(evento);
+                }
+                catch (Exception ex)
+                {
+                    return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                             $"Erro ao tentar adc eventos. Erro: {ex.Message}");
+                }
             }
         
         [HttpPut ("{id}")]
-            public async Task<IActionResult > Put(int id, Evento model)
+            public async Task<IActionResult > Put(int id, EventoDto model)
             {
-            try
-            {
-                var evento = await _eventoService.UpdateEventos(id, model);
-                if (evento == null) return BadRequest("Erro ao tentar atualizar  evento.");
+                try
+                {
+                    var evento = await _eventoService.UpdateEventos(id, model);
+                    if (evento == null) return BadRequest("Erro ao tentar atualizar  evento.");
 
-                return Ok(evento);
+                    return Ok(evento);
+                }
+                catch (Exception ex)
+                {
+                    return this.StatusCode(StatusCodes.Status500InternalServerError,
+                                             $"Erro ao tentar atualizar eventos. Erro: {ex.Message}");
+                }
             }
-            catch (Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError,
-                                         $"Erro ao tentar atualizar eventos. Erro: {ex.Message}");
-            }
-        }
         
         [HttpDelete ("{id}")]
             public async Task<IActionResult> Delete(int id)
             {
-            try
-            {
-                return await _eventoService.DeleteEventos(id) ? Ok("Deletado") : BadRequest("Evento não deletado.");
+                try
+                {
+                    return await _eventoService.DeleteEventos(id) ? Ok("Deletado") : BadRequest("Evento não deletado.");
                 
+                }
+                catch (Exception ex)
+                {
+                    return this.StatusCode(StatusCodes.Status500InternalServerError,
+                                             $"Erro ao tentar recuperar eventos. Erro: {ex.Message}");
+                }
             }
-            catch (Exception ex)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError,
-                                         $"Erro ao tentar recuperar eventos. Erro: {ex.Message}");
-            }
-        }
     }
 }
