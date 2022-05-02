@@ -1,14 +1,16 @@
-﻿using ProEventos.Domain;
-using System;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
 
 namespace ProEventos.Domain
 {
+    //[Table("EventosDetalhes")] Muda nome da migration
     public class Evento
     {
-        public int Id { get; set; }
+        public int Id { get; set; } //usa-se "Id" por convenção, mas pode ser usado qualquer nome. Basta apenas utilizar o DTO [Key]
         public string Local { get; set; }
         public string DataEvento { get; set; }
+        //[NotMapped] exclui da migration
+        //public int ContagemDias { get; set; }
         public string Tema { get; set; }
         public int QtdPessoas { get; set; }
         public string ImagemURL { get; set; }
