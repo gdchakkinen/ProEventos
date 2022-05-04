@@ -63,6 +63,5 @@ namespace ProEventos.Persistence
 
             return await query.FirstOrDefaultAsync();
         }
-
     }
 }
